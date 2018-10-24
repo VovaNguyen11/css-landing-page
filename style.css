@@ -11,6 +11,22 @@ body {
     text-align: center;
 }
 
+p,
+h1,
+h2,
+h3 {
+    margin: 0;
+
+}
+
+h1,
+h2,
+h3 {
+    text-transform: uppercase;
+    line-height: 30px;
+    font-size: 80px;
+}
+
 /*_______HEADER_______*/
 
 header {
@@ -26,12 +42,9 @@ header .logo {
 
 header h1 {
     margin: 110px 0 80px 0;
-    line-height: 30px;
-    font-size: 80px;
-    text-transform: uppercase;
 }
 
-header .caption{
+header .caption {
     display: block;
     margin: 0 auto;
     line-height: 30px;
@@ -39,7 +52,7 @@ header .caption{
     width: 30%;
 }
 
-header .arrow{
+header .arrow {
     content: url(images/Icon_arrow.png);
     display: inline-block;
     padding: 15px;
@@ -47,3 +60,51 @@ header .arrow{
     border: 1px solid white;
     border-radius: 50%;
 }
+
+/*_______HEADER_______*/
+
+/*_______CONTENT_______*/
+
+.content {
+    height: 55%;
+    color: #464b4f;
+}
+
+.content article {
+    display: inline-block;
+    width: 50%;
+    text-align: center;
+}
+
+.content .promo {
+    margin: 100px auto;
+    font-size: 20px;
+    line-height: 40px;
+}
+
+.content .promo p:first-child {
+    margin-bottom: 50px;
+}
+
+.my-job h1 {
+    margin-bottom: 100px;
+}
+
+.my-job section {
+    display: inline-block;
+    width: 30%;
+    margin-right: 15px;
+    text-align: justify;
+}
+
+.my-job section h3 {
+    display: inline-block;
+    font-size: 16px;
+}
+
+.my-job section p {
+    display: inline-block;
+    font-size: 16px;
+}
+
+/*_______CONTENT_______*/
